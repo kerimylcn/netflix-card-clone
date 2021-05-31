@@ -1,0 +1,64 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container{
+    background: #171717;
+    color: white;
+    height: 50vh;
+    width: 400px;
+    
+}
+
+.match-rating{
+    color: limegreen;
+    font-weight: bold;
+}
+
+
+.btn-container,
+.movie-info,
+.tags{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 1px solid white;
+    background: darkgrey;
+    color:white;
+    border-radius: 50%;
+    padding: 1em;
+    fill: white;
+    filter: invert(1);
+}
+
+.certification{
+    background-color: red;
+    padding: 0.5em;
+    border-radius: 50%;
+    border:1px solid white;
+
+}
+
+ul {
+    padding-left: 0;
+}
